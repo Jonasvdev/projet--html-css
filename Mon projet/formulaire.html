@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="DESIGN/default.css">
+</head>
+<body id="formulaire">
+    <form action="traitement.php">
+        <FIeldset>
+
+        <p> Remplissez ce formulaire <br>
+            <label for="">prenom</label title="entrez votren prenom">
+            <input type="text" name="prenom" autofocus required placeholder=" votre prénom">
+        </p>
+        <p>
+            <label for="">description</label> <br> 
+            <textarea name="description" id="" rows="6"></textarea> <br>  <br>
+            <label for="">choisissez la date </label> <br> 
+
+            <input type="date" name="" id="">
+        </p>
+
+        <P>
+            <button type="submit">Envoyer</button>
+            <input type="reset" value="Reinitialiser">
+         </P>
+
+    </form>
+
+
+        <!-- Les cases à cocher -->
+
+
+ <p>
+    <label for="plàt">Quel est votre plat preferé</label> <br>
+    <input type="checkbox" name="carbora"  checked >
+    <label for="Carbora">Carbora</label> <br>
+    <input type="checkbox" name="crepes" >
+    <label for="crepes "> crepes</label>
+    
+ </p>
+ <br>
+    
+
+            <!-- LES CASES D'OPTION -->
+
+            <P class="label">
+                <label for=""> Quel est votre plat preferé ? </label> <br>
+
+                <input type="radio" name="plat" value="carbora" checked> 
+                <label for="carbora">carbora</label> <br>
+
+                <input type="radio" name="plat " value="crepes">
+                <label for=" crepes"> crepes</label>
+
+            </P>
+
+            <!-- LES LISTES DEROULANTES -->
+            <P>
+                <LABel>Quel est votre plat preferé ?</LABel> <br>
+                <select name="Plat" id="">
+                    <optgroup label="Plats froids" >
+                        <option value="Huitre">huitre</option>
+                    </optgroup>
+
+                   <optgroup label="Plats chauds">
+                    <option value="carbora"> carbora</option>
+                    <option value="crepes" selected> crapes</option>
+                   </optgroup>
+                   
+                </select>
+            </P>
+
+           
+<br> <br>
+                <!-- LES LISTES DE DONNEES -->
+
+            <form >
+                <label for="Quel carte avez vous ?"> Quel carte avez vous </label>
+                <input type="text" list="cartes" name="cards" >
+                <datalist id="cartes">
+                    <option value="Visa classique">
+                    <option value="visa premiere">
+                        <option value="visa black">
+                </datalist>
+
+               
+    
+            </FIeldset>
+            <p>
+                <ul>
+                    <li>
+                        <a href="index.html">Retour à la page d'aucueil</a>
+                    </li>
+                </ul>
+            </p>
+            
+            </form>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
